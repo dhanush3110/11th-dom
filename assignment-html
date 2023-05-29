@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css"/>
+   
+    
+</head>
+<body>
+    
+       
+        <div class="inputdiv">
+            <label>firstname
+            <input type="text" id="firstname" placeholder="firstname"><br>
+            </label>
+            <label>lastname
+            <input type="text" id="lastname" placeholder="lastname"><br>
+            </label>
+            <label>address
+            <textarea type="address" id="address" placeholder="address"></textarea><br>
+            </label>
+            <label>pincode
+            <input type="number" id="pincode" placeholder="pincode"><br>
+            </label>
+            <label>gender
+            <input type="text" id="gender" placeholder="gender"><br>
+            </label>
+            <label>food
+            <input type="text" id="food" placeholder="food"><br>
+            </label>
+            <label>state
+            <input type="text" id="state" placeholder="state"><br>
+            </label>
+            <label>country
+            <input type="text" id="country" placeholder="country">
+            </label>
+        </div>
+        <div>
+            <br>
+            <button type="submit" onclick="convert()">submit</button>
+        </div>
+        <div>
+             <table>
+                <tr>
+                    <th style="width:200px">firstname</th>
+                    <th style="width:200px">lastname</th>
+                    <th style="width:200px">address</th>
+                    <th style="width:200px">pincode</th>
+                    <th style="width:200px">gender</th>
+                    <th style="width:200px">food</th>
+                    <th style="width:200px">state</th>
+                    <th style="width:200px">country</th>
+
+                </tr>
+                <tr>
+                    <td id="result" style=text-align:center>firstname</td>
+                    <td id="result1" style=text-align:center>lastname</td>
+                    <td id="result2" style=text-align:center>address</td>
+                    <td id="result3" style=text-align:center>pincode</td>
+                    <td id="result4" style=text-align:center>gender</td>
+                    <td id="result5" style=text-align:center>food</td>
+                    <td id="result6" style=text-align:center>state</td>
+                    <td id="result7" style=text-align:center>country</td>
+                    
+                </tr>
+             </table>
+             
+            
+        </div>
+    
+    
+
+
+  <script src="script2.js"></script>
+</body>
+</html>
